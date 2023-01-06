@@ -1,0 +1,20 @@
+{
+  "name": "webchallenge",
+  "version": "1.0.0",
+  "description": "一些关于HTML、CSS、JavaScript 的练习。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSalley/WebChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSalley/WebChallenge/issues"
+  },
+  "homepage": "https://github.com/TheSalley/WebChallenge#readme"
+}
