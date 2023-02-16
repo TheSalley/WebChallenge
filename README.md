@@ -1,18 +1,17 @@
 # WebChallenge
+
 一些关于HTML、CSS、JavaScript 的练习。
+https://juejin.cn/post/7177585493008678973
 
-## 1、使用canvas 画一棵树
+## 1、Expanding Cards(扩展卡)
 
-学习：https://code.juejin.cn/pen/7143152187563048990
+总结：
++ `flex: 1;` 是`flex-grow: 1; flex-shrink: 1; flex-basis: auto;` 的简写
++ `filter: brightness();` 控制明亮效果，默认为1，0% 为全黑
++ `Array.prototype.foreach.call(nodeList, () => {})` 
 
-## 2、404页面
+## 2、Progress Steps(进度步骤)
 
-有宽高的盒子，在绝对定位4 个值都为0 时，margin：auto；可实现水平、垂直居中。
-
-绝对定位1 个值为0，另一个相反的方向的值不为0，没有长度/宽度时，自动撑满盒子。
-
-## 3、烟花特效
-
-## 4、在网页底部养鱼
-
-## 5、To-Do-List
+总结:
++ `:root` 全局变量
++ `::before`、`:active`、`:disabled` 等伪元素和伪类选择器

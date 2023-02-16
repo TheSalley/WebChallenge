@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+  width: 90vw;
+}
+
+.panel {
+  height: 80vh;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  margin: 10px;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(.5);
+  transition: all 700ms ease-in-out, filter 300ms;
+}
+
+.panel h3 {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.panel:hover {
+  filter: brightness(1);
+}
+
+.panel.active {
+  flex: 5;
+  filter: brightness(1);
+}
+
+.panel.active h3 {
+  opacity: 1;
+}
